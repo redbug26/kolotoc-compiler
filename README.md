@@ -4,6 +4,9 @@ A PHP script to generate and integrate custom puzzles for the game [Kolotoc](htt
 
 This repository provides the script used to create a binary file (`kolo2.bin`) that organizes puzzles into categories. The binary file can then be integrated into the game to add your own personalized content.
 
+> [!CAUTION]
+> Maximum size of the kolo2.bin is 9851 bytes on a clean CPC6128. If you have ROM installed, the max size is himem()-32768
+
 ---
 
 ## Features
